@@ -5,6 +5,6 @@ Notify the target Pagerduty schedules to Slack.
 ## Usage
 
 ```
-$ npx pagerduty-schedule-attendee [pagerduty ical URL]
+$ npx -q pagerduty-schedule-attendee [pagerduty ical URL]
 username@example.com
 ```
