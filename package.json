@@ -23,5 +23,8 @@
   "homepage": "https://github.com/nekobato/pagerduty-schedule-attendee#readme",
   "dependencies": {
     "ical": "^0.6.0"
+  },
+  "bin": {
+    "pagerduty-schedule-attendee": "index.js"
   }
 }
