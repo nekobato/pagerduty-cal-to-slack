@@ -1,6 +1,6 @@
 {
   "name": "pagerduty-schedule-attendee",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Console out from Pagerdury .ical URL",
   "main": "index.js",
   "scripts": {
