@@ -13,7 +13,7 @@ ical.fromURL(ICS_URL, {}, (err, data) => {
   }
   for (const key in data) {
     if (data.hasOwnProperty(key)) {
-      if (!data[key].type && data[key].type !== 'VEVENT') continue;
+      if (data[key].type !== 'VEVENT') continue;
       if (new Date(data[key].start) <= now && now < new Date(data[key].end)) {
         console.info(data[key].attendee);
       }
